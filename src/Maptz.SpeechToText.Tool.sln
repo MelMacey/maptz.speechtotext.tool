@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.SpeechToText.Tool", "maptz.speechtotext.tool\Maptz.SpeechToText.Tool.csproj", "{A83D4191-9B8B-4B9D-85BE-510F20F0AFCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.SpeechToText.Bing.Client", "maptz.speechtotext.bing.client\Maptz.SpeechToText.Bing.Client.csproj", "{B6216136-515C-4DBA-BBEF-EDAD52629BE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.SpeechToText.Sockets", "maptz.speechtotext.sockets\Maptz.SpeechToText.Sockets.csproj", "{4ED3C87C-EE1F-4991-8EF8-4D181EEDAD00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C995746-266E-4100-948F-8A25BED8C6F3}"
+	ProjectSection(SolutionItems) = preProject
+		..\ReadMe.md = ..\ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A83D4191-9B8B-4B9D-85BE-510F20F0AFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83D4191-9B8B-4B9D-85BE-510F20F0AFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83D4191-9B8B-4B9D-85BE-510F20F0AFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83D4191-9B8B-4B9D-85BE-510F20F0AFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6216136-515C-4DBA-BBEF-EDAD52629BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6216136-515C-4DBA-BBEF-EDAD52629BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6216136-515C-4DBA-BBEF-EDAD52629BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6216136-515C-4DBA-BBEF-EDAD52629BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED3C87C-EE1F-4991-8EF8-4D181EEDAD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED3C87C-EE1F-4991-8EF8-4D181EEDAD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED3C87C-EE1F-4991-8EF8-4D181EEDAD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED3C87C-EE1F-4991-8EF8-4D181EEDAD00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {163DD67C-CF2E-4EF7-BB87-53C9BD842040}
+	EndGlobalSection
+EndGlobal

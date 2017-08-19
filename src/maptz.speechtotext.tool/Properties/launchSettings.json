@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Maptz.SpeechToText.Tool": {
+      "commandName": "Project",
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\Desktop\\JOHN KEYES TESTS\\test.wav\""
+    }
+  }
+}
