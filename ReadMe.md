@@ -2,9 +2,13 @@
 
 This tool is a demo tool using the Bing Speech-to-Text cognitive service from .net core. No official samples exist in C# using the WebSocket protocol, so this is a test implementation showing how to do it.
 
+> This is strictly demo-code only, and should be treated as instructive only. Do not use for production!
+
 ## Setup
 
-To setup the environment for conversion, you will need to register for a Bing Speech-to-Text service on Azure. You will then need to set the key as a user secret. In command prompt, navigate to the `src` directoyr, and type in the following command: 
+To setup the environment for conversion, you will need to register for a Bing Speech-to-Text service on Azure. 
+
+You will then need to set the key as a user secret. In command prompt, navigate to the `src` directoyr, and type in the following command: 
 
 	dotnet user-secrets set BingSpeechToTextKey [Bing-SpeechToText-Key]
 
